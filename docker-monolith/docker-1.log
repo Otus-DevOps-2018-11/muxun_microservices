@@ -3,6 +3,13 @@ muxun/ubuntu-tmp-file   latest              24c59021b07b        25 minutes ago  
 ubuntu                  16.04               7e87e2b3bf7a        2 weeks ago         117MB
 hello-world             latest              fce289e99eb9        5 weeks ago         1.84kB
 
+# отличие образа от контейнера состоит в том, что образ - это шаблон, болванка для запуска контейнеров
+# а контейнер - это конкретная реализация образа, в терминах ооп - образ это класс, а конейнер - это объект
+#
+#
+
+
+
 [
     {
         "Id": "7ae2e745902dd1eaae7388efe1d67ed3eb4855cb80afe466b85e3bd8463fabcc",
