@@ -15,3 +15,29 @@ muxun microservices repository
 
 </p>
 </details>
+
+
+
+<details><summary> Домашнее задание №13 docker-2 </summary>
+<p>
+
+* создан новый проект docker
+* установлен docker-machine 
+* с помощью docker machine создан хост в GCP
+* изучен механизм переключения с локального окружения на удаленные в docker-machine
+  eval $(docker-machine env dockerhost)
+* проверены pid изоляции в контейнере и на хост машине
+* созданы необходимые файлы для создания докер образа
+* написан dockerfile и собран образ
+* добавлено правило файерволла для порта 9292 
+* запущен docker контейнер 
+ <img src="https://raw.githubusercontent.com/muxun/muxun.github.io/master/docker%20reddit%20machine.png"></img>
+
+* зарегестрировался на docker hub
+* запушен образ на docker hub
+* проверен локальный запуск docker контейнера из образа с докер-хаба
+<img src="https://raw.githubusercontent.com/muxun/muxun.github.io/master/docker%20localhost.png"></img>
+
+* изучены способы остановки\старта\подключения с контейнерами и вывод информации по образам
+
+</p></details>
