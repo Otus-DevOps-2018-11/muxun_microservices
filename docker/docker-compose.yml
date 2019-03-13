@@ -66,6 +66,16 @@ services:
     networks:
       - back_net
       
+  mongo_exporter:
+    image: ${US}/mongo-exporter
+    environment:
+      - MONGODB_URI
+    networks:
+      back_net:
+        aliases:
+          - mongo_exporter
+   
+
 
 volumes:
   prometheus_data:
