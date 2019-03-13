@@ -5,7 +5,10 @@ services:
     volumes:
       - post_db:/data/db
     networks:
-      - back_net
+      back_net:
+        aliases:
+          - post_db
+          - comment_db
         
   ui:
     image: ${US}/ui:${VERSION}
@@ -17,14 +20,23 @@ services:
   post:
     image: ${US}/post:${VERSION}
     networks:
-      - back_net
-      - front_net
+      back_net:
+        aliases:
+          - post
+      front_net:
+        aliases:
+          - post
+
 
   comment:
     image: ${US}/comment:${VERSION}
     networks:
-      - back_net
-      - front_net
+      back_net:
+        aliases:
+          - comment
+      front_net:
+        aliases:
+          - comment
 
   prometheus:
     image: ${US}/prometheus
