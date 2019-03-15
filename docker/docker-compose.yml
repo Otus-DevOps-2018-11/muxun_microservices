@@ -75,7 +75,17 @@ services:
         aliases:
           - mongo_exporter
    
-
+  blackbox:
+    image: ${US}/blackbox
+    ports:
+      - '9115:9115'
+    networks:
+      back_net:
+        aliases:
+          - blackbox
+      front_net:
+        aliases:
+          - blackbox
 
 volumes:
   prometheus_data:
