@@ -83,7 +83,7 @@ muxun microservices repository
 </details>
 
 
-<details> <summary> Домашнее задание №17 monitoring1-4 </summary>
+<details> <summary> Домашнее задание №17 monitoring- 1</summary>
 <p>
   
 * запущена vm машина dockerhost
