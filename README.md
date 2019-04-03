@@ -83,6 +83,20 @@ muxun microservices repository
 </details>
 
 
+<details> <summary> Домашнее задание №16 gitlab-1 </summary>
+<p>
+* создана новая вм машина вручную
+* с помощью ansible раскатаны docker, docker-compose
+* создан docker-compose.yml по шаблону и запущен сервис
+* в ui созданы группа-проект-раннер
+* в .gitlab-ci.yml описаны пайплайн для трех stage - build test review
+* рассмотренны примеры автоматического выполнения пайплайна по изменнению в репозитории
+* в пайплайн добавлены окружения, ограничения и динамическое окружение
+* изучена работы с данными окружениями
+</p>
+</details>
+
+
 <details> <summary> Домашнее задание №17 monitoring- 1</summary>
 <p>
   
