@@ -85,6 +85,7 @@ muxun microservices repository
 
 <details> <summary> Домашнее задание №16 gitlab-1 </summary>
 <p>
+  
 * создана новая вм машина вручную
 * с помощью ansible раскатаны docker, docker-compose
 * создан docker-compose.yml по шаблону и запущен сервис
@@ -97,7 +98,7 @@ muxun microservices repository
 </details>
 
 
-<details> <summary> Домашнее задание №17 monitoring- 1</summary>
+<details> <summary> Домашнее задание №17 monitoring-1 </summary>
 <p>
   
 * запущена vm машина dockerhost
@@ -110,6 +111,21 @@ muxun microservices repository
 * на основе percona/mongodb внедрен экспортер для mongo db
 * внедрен blackbox экспортер в проект
 
+</p>
+</details>
+
+<details> <summary> Домашнее задание №18 monitoring-2 </summary>
+<p>
+  
+* запущена вм машина с помощью docker-machine
+* разделен docker-compose файл на мониотринговый и приложенческий
+* в мониторинговый композ добавлен cadvisor, grafana, alertmanager
+* отработаны способы построения дашбордов в графане
+* добавлены метрики приложений и созданы для них дашборды
+* создан алертменеджер и интегрирован в слак
+ <img src="https://raw.githubusercontent.com/muxun/muxun.github.io/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202019-04-11%2023-22-22.png"></img>
+* алерты проверены
+* провозился с версией руби в докерфайлах приложений - что то не так с официальным образом руби:2.2
 </p>
 </details>
 
